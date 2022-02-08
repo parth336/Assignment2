@@ -14,7 +14,7 @@ namespace Assignment1
             this.ConversionValue = conversionValue;
         }
         public double ConvertCelciusToFahrenheit() {
-            return ((this.conversionValue * 9) / 5) + 5;
+            return ((this.conversionValue * 9) / 5) + 32;
         }
         public double ConvertCelciusToKelvin() {
             return this.conversionValue + 273.15;
