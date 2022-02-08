@@ -25,7 +25,11 @@ namespace Assignment1
         public double ConvertKelvinToCelsius() {
             return this.conversionValue - 273.15;
         }
-        public double ConvertFahrenheitToKelvin() { }
-        public double ConvertFahrenheitToCelsius() { }
+        public double ConvertFahrenheitToKelvin() {
+            return (((this.conversionValue - 32) * 5) / 9) + 273.15;
+        }
+        public double ConvertFahrenheitToCelsius() {
+            return (((this.conversionValue - 32) * 5) / 9);
+        }
     }
 }
